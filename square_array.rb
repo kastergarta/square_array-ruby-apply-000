@@ -5,6 +5,5 @@ def square_array(array)
 end
 
 def square_array(array)
-  array.collect { |i| new_array << i * i }
-  return new_array
+  array.collect { |i| i * i }
 end
